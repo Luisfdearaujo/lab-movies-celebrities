@@ -1,5 +1,9 @@
 <h1>Celebrities</h1>
 
 {{#each celebrities}}
-  {{this.name}}
+  <div style="border: 1px solid black; padding: 20px">
+    <p>{{this.name}}</p>
+    <p>{{this.occupation}}</p>
+    <p>{{this.catchPhrase}}</p>
+  </div>
 {{/each}}
